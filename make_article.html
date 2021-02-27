@@ -2,16 +2,23 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/manage.css">
-    <title>記事作成用</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <title>記事作成用ページ（リアルタイムプレビュー付き）</title>
+  <script>
+  $(function() {
+    $('body').keyup(function() {
+      $('#preview').html($('#src').val());
+    });
+  });
+  </script>
   </head>
   <body>
-    <div id="wrapper">
-        <div class="main">
-          <div class="title">
-            <h1>記事作成用！</h1>
-          </div>
-          <input type="search" placeholder="Search">
-        </div>
-    </div>
+  <div id="wrapper">
+  <p>左にHTMLを入力。右にプレビューが出る</p>
+  <textarea id="src"rows="50" cols="80">
+  <h1>タイトル</h1>
+  </textarea> 
+  <div id="preview"></div>
+  </div>
   </body>
 </html>
