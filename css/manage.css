@@ -3,10 +3,12 @@
 }
 #src {
   width: 45%;
+  white-space: pre-wrap;
 }
 #preview {
   width: 50%;
   float: right;
   border: 1px solid;
+  white-space: pre-wrap;
 }
 
