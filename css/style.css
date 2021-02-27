@@ -12,17 +12,14 @@ div#wrapper {
 }
 .main {
     width: 70%;
-    border-left: 1px solid #000000;
     box-sizing: border-box;
 }
 .side {
     width: 30%;
-    border-left: 1px solid #000000;
-    border-right: 1px solid #000000;
     box-sizing: border-box;
     background-color: #f6f6f4;
 }
 .footer {
     width: 100%;
-    border: 1px solid #000000;
+    background-color: #3e3e3e;
 }
