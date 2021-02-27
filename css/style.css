@@ -6,7 +6,8 @@ div#wrapper {
 }
 .heading {
     width: 100%;
-    border: 1px solid #000000;
+    background-color: #92d8f1;
+    padding: 0px 0px 1px 1px;
     
 }
 .main {
