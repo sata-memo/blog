@@ -4,6 +4,10 @@ div#wrapper {
     display: flex;
     flex-wrap: wrap;
 }
+.clearfix {
+    display: block;
+    clear: both;
+}
 .heading {
     width: 100%;
     background-color: #92d8f1;
