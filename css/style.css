@@ -1,3 +1,15 @@
 h1 {
   border: 1px solid #000000;
 }
+div#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    width: 70%;
+}
+.side {
+    width: 30%;
+}
