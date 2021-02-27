@@ -7,14 +7,17 @@ div#wrapper {
 .heading {
     width: 100%;
     border: 1px solid #000000;
+    
 }
 .main {
     width: 70%;
     border: 1px solid #000000;
+    box-sizing: border-box;
 }
 .side {
     width: 30%;
     border: 1px solid #000000;
+    box-sizing: border-box;
 }
 .footer {
     width: 100%;
